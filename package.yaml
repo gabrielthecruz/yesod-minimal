@@ -1,0 +1,12 @@
+name: russian-vocabulary
+
+dependencies:
+- base
+- yesod-core
+- yesod-form
+- wai
+- warp
+- text
+
+library:
+    source-dirs: src
