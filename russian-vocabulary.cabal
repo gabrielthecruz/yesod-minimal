@@ -1,0 +1,24 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.4.
+--
+-- see: https://github.com/sol/hpack
+
+name:           russian-vocabulary
+version:        0.0.0
+build-type:     Simple
+
+library
+  exposed-modules:
+      Minimal
+  other-modules:
+      Paths_russian_vocabulary
+  hs-source-dirs:
+      src
+  build-depends:
+      base
+    , text
+    , wai
+    , warp
+    , yesod-core
+  default-language: Haskell2010
